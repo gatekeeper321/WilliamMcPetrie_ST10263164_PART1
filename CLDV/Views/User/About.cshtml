@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About</h1>
+
+<body>
+    <form action="About" method="post">
+        <p>Please enter your first and last name:</p>
+        <input type="text" name="name" placeholder="@Model.Name"required>
+        <input type="text" name="surname" placeholder="@Model.Name" required>
+        <input type="text" name="email" placeholder="@Model.Name" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
